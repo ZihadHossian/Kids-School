@@ -26,6 +26,9 @@
 .white-1{
     color: rgb(255, 255, 255);
 }
+.dark-1{
+    color: rgb(17, 17, 17);
+}
 /* style navigation */
 .kid-school-navigation{
     max-width: 1440px;
@@ -64,16 +67,74 @@ margin-left: -32px;
 #nav-hidden{
     display: none;
 }
+.hr-line{
+    margin: 0 185px;
+    background-color: aquamarine;
+}
+/* style kid-school-heading */
+.kid-school-heading{
+    margin: 20px 185px;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kid-school-detail{
+    padding-right: 50px;
+}
+.vision-heading{
+    font-size: 3.5rem;
+font-weight: 700;
+line-height: 3.81rem;
+margin-bottom: 30px;
+}
+.kid-school-info{
+    font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+padding-bottom: 30px;
+}
+.enroll-btn{
+    border-radius: 12px;
+background: rgb(17, 17, 17);
+width: 197px;
+height: 50px;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 1.875rem;
+}
 @media screen and (max-width:576px) {
+    /* responsive navigation bar */
     .kid-school-navigation{
         display: flex;
         justify-content: space-between;
         padding: 12px 16px;
+        border: 1px solid rgb(254, 163, 1);
     }
     .nhide{
         display: none;
     }    
     #nav-hidden{
         display: initial;
+    }
+    /* responsive kid school heading */
+    .kid-school-heading{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;    
+    }
+    .kid-school-detail{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .vision-heading{
+        width: 400px;
+    }
+    .break{
+        display: none;
     }
 }
