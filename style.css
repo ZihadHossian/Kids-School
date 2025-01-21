@@ -280,17 +280,19 @@ line-height: 1.75rem;
 }
 /* style footer */
 .footer{
+    overflow-x: hidden;
+    max-width: 1440px;
     background: rgb(1, 172, 253);
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
     align-items: center;
-    padding: 140px;
     gap: 150px;
 }
 .education{
     justify-items: start;
-    width: 400px;
+    width: 411px;
+
 }
 .footer-pic{
     display: flex;
