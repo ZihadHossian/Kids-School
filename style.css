@@ -4,6 +4,18 @@
     margin: 0px;
     padding: 0px;
 }
+.display-flex{
+    display: flex;
+}
+body{
+    overflow-x: hidden;
+}
+.story-date{
+    border-radius: 47.93px;
+    width: 174px;
+    height: 47px;
+    border-style: none;
+    }
 /* Font color */
 .orange{
     color: rgb(254, 163, 1);
@@ -29,17 +41,22 @@
 .dark-1{
     color: rgb(17, 17, 17);
 }
+.dark-2{
+    color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 2.875rem;
+font-weight: 700;
+line-height: 3.6rem;
+}
 /* style navigation */
 .kid-school-navigation{
-    max-width: 1440px;
-    display: flex;
+    max-width:1440px;
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
 
 }
 .nav-school{
-    display: flex;
     align-items: center;
 }
 .nav-school-text{
@@ -75,7 +92,6 @@ margin-left: -32px;
 .kid-school-heading{
     margin: 20px 185px;
     max-width: 1440px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -102,6 +118,161 @@ height: 50px;
 font-size: 1.25rem;
 font-weight: 700;
 line-height: 1.875rem;
+}
+/* style study-curriculum */
+.study-curriculum{
+    max-width: 1440px;
+    background-image: url('./assets/bg.png');
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 0;
+}
+.curriculum-content-box{
+    justify-content: center;
+    align-items: center;
+    padding: 80px 140px;
+}
+.curriculum-content{
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 19px;
+    flex-direction: column;
+    align-items: center;
+    height: 475px;
+    width: 365px;
+    box-shadow: rgba(0, 0, 0, 0.05)inset 0px 0px 28.3px 0.94px;
+}
+.curriculum-box-1{
+    border: rgb(222, 245, 255);
+    margin-right: 30px;
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-box-2{
+    margin-right:30px;
+    border: rgb(255, 244, 220);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-box-3{
+border:rgb(242, 232, 255);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-img{
+    padding: 65px 120px 40px 120px;
+}
+.curriculum-name{
+color: rgb(32, 32, 32);
+font-size: 1.5rem;
+font-weight: 700;
+line-height: 1.875rem;
+padding-bottom: 34px;
+}
+.curriculum-info{
+    color: rgb(128, 128, 128);
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.5rem;
+padding: 0 20px 20px 20px ;
+}
+.read-more-info{
+    border-style: none ;
+    background-color: white;
+    font-size: 1rem;
+font-weight: 700;
+line-height: 1.75rem;
+}
+#curriculum-arrow{
+    color: azure;
+    background-color: orange;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius:30px;
+}
+/* style School-story */
+.kid-school-story{
+    max-width: 1440px;
+    background-image: url('./assets/bg.png');
+    background:linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) );
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.our-story{
+    padding:60px 0 80px 0;
+}
+.story-content-box{
+    margin: 0 140px;
+    gap: 20px;
+}
+.classroom-moment{
+    flex-direction: column;
+    width: 540px;
+    height: 630px;
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.classroom-pic{
+   border-radius: 15px;
+}
+.date-1{
+    background-color: rgb(60, 216, 232);
+    margin-top:-25px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.75rem;
+}
+.classroom-heading{
+    padding:36px 0 0 40px;
+}
+.classroom-story{
+    margin: 50px 0 0 20px;
+}
+.another-story-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.another-story-info{
+    height: 300px;
+    width: 290px;
+    border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.another-story-pic{
+    border-radius:15px ;
+    /* width: 100%; */
+    margin-bottom: -25px;
+}
+.date-2{
+background: rgb(149, 178, 38);
+color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 500;
+line-height: 1.75rem;
+margin-left:20px;
+
+}
+.another-story-heading{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+font-size:1rem;
+font-weight: 700;
+line-height: 1.75rem;
+}
+.date-3{
+    background: rgb(93, 88, 240);
+    color: rgb(255, 255, 255);
+font-size: 1rem;
+font-weight: 500;
+margin-left: 20px;
+line-height: 1.75rem;
+}
+.view-all{
+    margin: 80px 0;
 }
 @media screen and (max-width:576px) {
     /* responsive navigation bar */
@@ -135,6 +306,21 @@ line-height: 1.875rem;
         width: 400px;
     }
     .break{
+        display: none;
+    }
+    /* responsive study curriculum */
+    .study-curriculum{
+
+    }
+    .curriculum-content-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .curriculum-content{
+        margin: 0px;
+    }
+    #curriculum-arrow{
         display: none;
     }
 }
