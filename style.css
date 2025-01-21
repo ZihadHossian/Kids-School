@@ -9,6 +9,7 @@
 }
 body{
     overflow-x: hidden;
+    margin-right: -34px;
 }
 .story-date{
     border-radius: 47.93px;
@@ -118,6 +119,9 @@ height: 50px;
 font-size: 1.25rem;
 font-weight: 700;
 line-height: 1.875rem;
+}
+html,body,main,section{
+    /* width: 100%; */
 }
 /* style study-curriculum */
 .study-curriculum{
@@ -281,6 +285,7 @@ line-height: 1.75rem;
         justify-content: space-between;
         padding: 12px 16px;
         border: 1px solid rgb(254, 163, 1);
+        width: 576px;
     }
     .nhide{
         display: none;
@@ -290,10 +295,12 @@ line-height: 1.75rem;
     }
     /* responsive kid school heading */
     .kid-school-heading{
+        width: 576px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
-        align-items: center;    
+        align-items: center;
+        margin: 0 ;
     }
     .kid-school-detail{
         padding: 0;
@@ -301,26 +308,47 @@ line-height: 1.75rem;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        margin: 0 auto;
     }
     .vision-heading{
-        width: 400px;
+        width: 576px;
     }
     .break{
         display: none;
     }
     /* responsive study curriculum */
     .study-curriculum{
-
+        width: 576px;
     }
     .curriculum-content-box{
+        width: 576px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         gap: 30px;
     }
     .curriculum-content{
-        margin: 0px;
+        margin: 0px auto;
+
     }
     #curriculum-arrow{
         display: none;
+    }
+    /* responsive school stories */
+    .kid-school-story{
+        width: 576px;
+        margin: 0 auto;
+    }
+    .classroom-moment{
+        display: none;
+    }
+    .another-story-box{
+        width:100%;
+    }
+    .another-story-info{
+        width: auto;
+        
+    }
+    .another-story-pic{
+        width: 100%;
     }
 }
