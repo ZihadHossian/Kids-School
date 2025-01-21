@@ -127,6 +127,7 @@ html,body,main,section{
 .study-curriculum{
     max-width: 1440px;
     background-image: url('./assets/bg.png');
+    background-size: cover;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -282,6 +283,7 @@ line-height: 1.75rem;
 .footer{
     overflow-x: hidden;
     max-width: 1440px;
+    width: 100%;
     background: rgb(1, 172, 253);
     display: grid;
     grid-template-columns: repeat(3,1fr);
