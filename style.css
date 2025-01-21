@@ -331,6 +331,7 @@ line-height: 1.5rem;
 @media screen and (max-width:576px) {
     /* responsive navigation bar */
     .kid-school-navigation{
+        width: 100%;
        margin-left: -3vw;
        /* width:576px; */
         display: flex;
