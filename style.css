@@ -89,6 +89,21 @@ margin-left: -32px;
     margin: 0 185px;
     background-color: aquamarine;
 }
+/* style marquee */
+.text-move{
+    display: flex;
+    justify-content: center;
+}
+ .info-move{
+    text-align: center;
+    padding-top: 20px;
+    border: 1px solid orange;
+    width: 50%;
+    height: 50px;
+    background-color: azure;
+    color: rgb(37, 36, 36);
+    font-size: 1.75rem;
+ }
 /* style kid-school-heading */
 .kid-school-heading{
     margin: 20px 185px;
@@ -362,6 +377,7 @@ line-height: 1.5rem;
     }
     .vision-heading{
         padding-top: 2vh;
+        padding-left: 30px;
     }
     .kid-school-info{
         padding: 0 3vw;
@@ -409,5 +425,9 @@ line-height: 1.5rem;
         padding: 0;
         padding-left: 20px;
         gap: 60px;
+    }
+    .footer{
+        width: auto;
+        padding-left: 50px;
     }
 }
